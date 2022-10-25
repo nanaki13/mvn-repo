@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>bon.jo</groupId>
+    <artifactId>bon-sql_3</artifactId>
+    <packaging>jar</packaging>
+    <description>bon-sql</description>
+    <version>1.1.1-SNAPSHOT</version>
+    <name>bon-sql</name>
+    <organization>
+        <name>bon.jo</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala3-library_3</artifactId>
+            <version>3.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>bon.jo</groupId>
+            <artifactId>bon-scala-common_3</artifactId>
+            <version>1.1.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.xerial</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <version>3.36.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalactic</groupId>
+            <artifactId>scalactic_3</artifactId>
+            <version>3.2.11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest_3</artifactId>
+            <version>3.2.11</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>Maven Repository</id>
+            <name>Maven Repository</name>
+            <url>https://raw.githubusercontent.com/nanaki13/mvn-repo/main/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
